@@ -1,12 +1,12 @@
 import pymysql
 
 def main():
-    myname=str(input('输入用户： '))
+    
     mypasswd = str(input('输入密码：'))
     # dl =str(input('删除的染色体： '))
     
     conn = pymysql.connect(host='localhost',port=3306,
-                        user=myname,password = mypasswd,
+                        user='root',password = mypasswd,
                         db ='snps',charset ='utf8',
                         cursorclass=pymysql.cursors.DictCursor)
   

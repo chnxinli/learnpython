@@ -1,10 +1,10 @@
 import pymysql
 
 def main():
-    user = input('输入用户： ')
+   
     passwd = input('输入密码： ')
     conn = pymysql.connect(host='localhost',
-                           user=user,
+                           user='root',
                            password=passwd,
                            db='iris',
                            charset='utf8',
