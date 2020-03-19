@@ -20,8 +20,8 @@ def main():
             # for row in cursor.fetchall():
             #     print(f'染色体编号：{row[0]}')
             #     print(f'所在位置：{row[1]}')
-            #     print(f'T586碱基类型： {row[2]}')
-            #     print(f'渝棉1号碱基类型： {row[3]}')
+            #     print(f'T碱基类型： {row[2]}')
+            #     print(f'Y碱基类型： {row[3]}')
             #     print('_' *20 )
             # print(cursor.fetchall())
             for row in cursor.fetchall():
