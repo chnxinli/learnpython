@@ -1,1 +1,1 @@
-It is some programming exercises for learning python.
+They are some programming exercises for learning python.
